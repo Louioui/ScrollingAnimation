@@ -9,7 +9,6 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0;
-    overflow: hidden;
 }
 h1{
     margin: 10px;
@@ -25,11 +24,11 @@ h1{
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-    transform: translateX(400%);
+    transform: translateX(200%);
     transition: transform 0.4s ease;
 }
 .box :nth-of-type(even) {
-    transform: translateX(-400%);
+    transform: translateX(-200%);
 }
 .box.show{
     transform: translateX(0)
